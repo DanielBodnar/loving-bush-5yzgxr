@@ -1,6 +1,12 @@
-# Docker Example
+# DevOps Interview
 
-In this example, we show how you can use [Docker with CodeSandbox](https://codesandbox.io/post/introducing-docker-support-in-codesandbox). Check [the Dockerfile](./.codesandbox/Dockerfile) to see how we configure the container of this sandbox. You can simply edit it yourself and the container will rebuild. Make sure to fork the sandbox first by clicking "Fork" in the top left corner.
+## Problem:
+A developer has just handed you this application. They can't seem to figure out how to get their Dockerfile to run.
 
-- Every new terminal will run inside this new container, open a new terminal with CTRL ~
-- We set up an example sandbox task that runs `whereis htop`. Typically this would be where you run `yarn run serve`. You can edit it in [tasks.json](./.codesandbox/tasks.json)
+A.C.
+- Build and run the webserver locally using Docker.
+
+The developer also grabbed some terraform off stackoverflow because they would like to deploy this app in ECS.
+
+A.C. 
+- Build out the components needed to finish running this app in AWS ECS.
